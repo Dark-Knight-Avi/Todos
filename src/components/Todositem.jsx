@@ -16,7 +16,7 @@ const Todositem = ({ index, todo, todos, setTodos }) => {
     setIsChecked(!isChecked)
   };
   return (
-    <div className="p-3 border-2 border-black flex justify-around flex-col items-center">
+    <div className="p-3 m-2 border-2 border-black flex justify-around flex-col items-center">
       {/* <div className="font-bold">{index + 1}</div> */}
       <div className="font-bold text-xl">
         {index + 1}.{todo.title}
