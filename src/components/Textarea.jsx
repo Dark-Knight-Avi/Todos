@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Axios from "axios";
-const Textarea = ({ todos, setTodos }) => {
+const Textarea = ({ setTodos }) => {
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [added, setAdded] = useState(false);
